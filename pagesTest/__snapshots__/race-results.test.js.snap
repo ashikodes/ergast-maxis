@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Race results page matches snapshot 1`] = `
+<div>
+  <div
+    class="main-heading"
+  >
+    <a>
+      View overall standings
+    </a>
+    <h2>
+      Race results
+    </h2>
+  </div>
+  <div
+    class="main-content"
+  >
+    <span
+      class="card"
+    >
+      <h3>
+        lee
+         
+        jon
+        <span>
+          →
+        </span>
+      </h3>
+      <p>
+        Fastest Lap Time - 
+        121
+      </p>
+      <p>
+        Average speed - 
+        22
+      </p>
+    </span>
+  </div>
+</div>
+`;

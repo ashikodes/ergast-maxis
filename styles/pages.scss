@@ -1,0 +1,54 @@
+.nav-top {
+  background-color: #c76693;
+  display: flex;
+  justify-content: center;
+
+  h1 {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+}
+
+.main {
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  &-heading {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    
+    a {
+      cursor: pointer;
+      text-decoration: underline;
+
+      &:hover {
+        color: lighten($color: #000, $amount: 30);
+      }
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &-content {
+    h3 {
+      cursor: pointer;
+      display: inline-block;
+      margin: 0;
+
+      span {
+        margin-left: .5rem;
+      }
+
+      &:hover span {
+        margin-left: 1rem;
+      }
+    }
+  }
+}

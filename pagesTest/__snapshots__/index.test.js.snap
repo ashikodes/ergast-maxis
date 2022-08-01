@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Standings page matches snapshot 1`] = `
+<div>
+  <div
+    class="main-heading"
+  >
+    <a>
+      View race results
+    </a>
+    <h2>
+      Overall Standings in Races
+    </h2>
+  </div>
+  <div
+    class="main-content"
+  >
+    <span
+      class="card"
+    >
+      <h3>
+        lee
+         
+        jon
+        <span>
+          →
+        </span>
+      </h3>
+      <p>
+        Points - 
+        12
+      </p>
+      <p>
+        Wins - 
+        6
+      </p>
+    </span>
+  </div>
+</div>
+`;
